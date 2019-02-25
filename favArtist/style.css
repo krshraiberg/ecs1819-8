@@ -1,0 +1,48 @@
+body {
+    background-color: darkgreen;
+    }
+h3 {
+    color: black;
+    text-align: center;
+}
+
+h2{
+text-align: center
+}
+img {
+     display: block;
+     margin-left: auto;
+     margin-right:auto;
+     width: 500px;
+     border-style: solid;
+     border-color:  #91274F;
+     float: center;
+}
+div {
+   
+    border: 25px solid darkgreen;
+    padding: 25px;
+       border-radius: 46px; 
+}
+
+h1 {
+    text-align: center;}
+button {
+ padding:15px 22px;
+  font-size:24px;
+text-align:center;
+ cursor: pointer;
+outline:none;
+ color: #fff;
+background-color: pink;
+border:none;
+border-radius: 15px;
+ box-shadow: 0 9px #999;
+}
+
+
+    
+table {
+    font-family: arial, sans-serif;
+    border-collapse:
+}

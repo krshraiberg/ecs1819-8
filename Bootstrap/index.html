@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+   <head>
+  <title>Bootstrap Example</title>
+<!--BootstrapCDNBegins--><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<!--BootStrapCDNEnds-->
+</head>
+    <body style="background-color:white;">
+          <h1 style="color:#4ac5f8; border-style: solid; border-width: 10px;">
+              BootStrap
+           </h1>
+        <p1>
+
+        </p1>
+        <hr>
+        <h3 style= "text-align:center;background-color: #F4649A; font-family: fantasy, monospace; border-style: dashed; border-width: 2px; border-radius: 12px;">
+           Drop Downs and List Groups
+        </h3>
+        <div style="background-color:#ccc5ff; text-align: center; border-style: dashed; border-width: 2px; border-radius: 12px;">
+ <em>    List Groups</em>
+<br>List Groups are used to display a series of content
+ <br>There are three types of List Groups:
+ <li>Active Item</li>
+ <li>Disabled Item</li>
+
+</div>
+<!--BOOTSTRAP-->
+<div class="container">
+  <h2 style="color:#777">Active Item List group</h2>
+  <ul class="list-group">
+    <li class="list-group-item active">Active item</li>
+    <li class="list-group-item">Second item</li>
+    <li class="list-group-item">Third item</li>
+  </ul>
+  </div>
+  <div class="container">
+ <br> <h4 style="color:#777;">List Group With a Disabled Item</h4>
+  <div class="list-group">
+    <a href="#" class="list-group-item disabled">Disabled item</a>
+    <a href="#" class="list-group-item disabled">Disabled item</a>
+    <a href="#" class="list-group-item">Third item</a>
+  </div>
+<!--ENDOFBOOTSTRAP-->
+</div>
+   <div style="background-color:#ccc5ff; text-align: center; border-style: dashed; border-width: 2px; border-radius: 12px;">
+     There is also Contextual Classes,  that lists things in colors. You can link things in Contextual Classes
+<!--BOOTSTRAP--> <br><li><a href="https://www.w3schools.com/bootstrap4/bootstrap_list_groups.asp#" class="list-group-item list-group-item-action">Action item</a></li>
+     <br>BootStrapt allows you to flush or remove borders
+     <li>class="list-group list-group-flush" is the code</li>   
+     <br>Using .baadge you can add numerical value to a list, this is used in email 
+     <li><ul class="list-group">
+  <!--BOOTSTRAP--></-->  <li class="list-group-item d-flex justify-content-between align-items-center">
+      Inbox
+      <span class="badge badge-primary badge-pill">17</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Ads
+      <span class="badge badge-primary badge-pill">2,000</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Junk
+      <span class="badge badge-primary badge-pill">606</span>
+    </li>
+  </ul></li>
+     </div>
+ <h5 style= "text-align:center;background-color: #b0ede1; font-family: monospace; border-style: dashed; border-width: 2px; border-radius: 12px;"> 
+ DropDowns    <br>  a toggleable menu that allows the user to choose one value from a predefined list
+ <!--BOOTSTRAP-->    <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Example1</a>
+      <a class="dropdown-item" href="#">Example2</a>
+      <a class="dropdown-item" href="#">Example3</a>
+    </div>
+  </div>
+you can link a dropdown to a different site or another webpage to allow more organization to a website
+<br> Dropdown Menus also have a Active and Disabled unit to it. When it is active it leads you to that different webpage but, when disabled it doesn't funtion.
+<br> bootstrap aloows one to customize their dropdown buttons. You can make the list go up, you can move the list from center screen to more on one side and more
+<br> for a dropdown menu to work you need to creat a button then add a dropdown-toggle
+<br> the code for a simple code of a dropdown is:
+<ul style= "color:white;"> class="dropdown">
+  <br>  button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <br>  Dropdown button
+    <br>/button>
+   <br> div class="dropdown-menu">
+       class="dropdown-item" href="#">Example1
+       class="dropdown-item" href="#">Example2
+       class="dropdown-item" href="#">Example3
+ <br>   /div>
+<br>  /div></ul>
+</h5>
+ <h6 style= "text-align:center;background-color: #123a; font-family: monospace; border-style: dashed; border-width: 2px; border-radius: 12px;"> 
+ Websites with examples of Bootstrap lists
+ <br>Websites like CNN uses <em>List Groups</em> to organize their website.
+ <div>href="https://www.cnn.com/"</div>
+ <br>Websites like Google Gmail. When ypu press the four squares in the corner you get a dropdown menu that lets you choose wether you want to go to google docs,youtube etc.
+ <div>href="google.com"</div>
+  </h6>  </body>
+</html>
