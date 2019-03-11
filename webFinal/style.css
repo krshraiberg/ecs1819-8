@@ -14,8 +14,8 @@ img {
 }
 
 #who { background-color: lightblue; 
-       background-image: linear-gradient(#4e4eff, #3a3aff, #44a6c6, #8fcadd, #add8e6, #cbe6ef, #ebebff, #ebebfe);
-    
+       background-image: linear-gradient(#4e4eff, #3a3aff, #44a6c6, #8fcadd, #add8e6, #cbe6ef, #ebebff, #ebebfe, #ebebff, #cbe6ef, #add8e6, #8fcadd, #44a6c6, #3a3aff, #4e4eff);
+ 
 }
 #whom {
    font-family: 'Rock Salt', cursive;
@@ -25,6 +25,12 @@ img {
 nav {background-image: linear-gradient(#4e4eff, #4e4eff); }
 
 
+footer {
+      background-image: linear-gradient(#4e4eff, #89cff0, #89cff0, #4e4eff);
+}
 
 
-
+#kylie {
+    font-family: 'Barrio', cursive;
+    text-align: center;
+}
