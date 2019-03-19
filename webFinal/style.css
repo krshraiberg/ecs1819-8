@@ -13,8 +13,7 @@ img {
   margin-right: auto;
 }
 
-#who { background-color: lightblue; 
-       background-image: linear-gradient(#4e4eff, #3a3aff, #44a6c6, #8fcadd, #add8e6, #cbe6ef, #ebebff, #ebebfe, #ebebff, #cbe6ef, #add8e6, #8fcadd, #44a6c6, #3a3aff, #4e4eff);
+#who { background: linear-gradient(to bottom, #4e4eff 0%, #66ccff 100%)
  
 }
 #whom {
